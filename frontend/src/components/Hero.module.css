@@ -1,0 +1,26 @@
+.hero{
+  margin: 18px 0;
+  background: linear-gradient(90deg,#fff 0%, #fbfdff 100%);
+  border-radius:12px;
+  padding: 10px;
+  box-shadow: 0 4px 16px rgba(14,16,24,0.04);
+}
+.hero h1{
+  margin:0 0 8px;
+  font-size:28px;
+}
+.lead{ color:var(--muted); margin-bottom:14px; }
+.cta{
+  background:var(--accent);
+  color:white;
+  border:0;
+  padding:10px 14px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+}
+.illustration img{ width:100%; height:auto; border-radius:8px; object-fit:cover;}
+@media (max-width:900px){
+  .hero .container{flex-direction:column}
+  .illustration{width:100%}
+}
